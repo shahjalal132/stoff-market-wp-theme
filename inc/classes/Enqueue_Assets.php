@@ -11,23 +11,23 @@ class Enqueue_Assets {
 
     public function setup_hooks() {
         add_action( 'wp_enqueue_scripts', [$this, 'enqueue_css'] );
-        add_action( 'wp_enqueue_scripts', [$this, 'enqueue_js'] );
+        // add_action( 'wp_enqueue_scripts', [$this, 'enqueue_js'] );
     }
 
     public function enqueue_css() {
         // Register Style
-        wp_register_style( "handle", dir . "src", [deps], version, "all" );
+        wp_register_style( "stoff-style", THEME_DIR_PATH . "/assets/css/style.css", [], false, "all" );
 
         // Enqueue Style
-        wp_enqueue_style( "handle" );
+        wp_enqueue_style( "stoff-style" );
 
     }
 
-    public function enqueue_js() {
+    /* public function enqueue_js() {
         // Register scripts
         wp_register_script( "handle", dir . "src", [deps], version, true );
 
         // Enqueue Script
         wp_enqueue_script( "handle" );
-    }
+    } */
 }

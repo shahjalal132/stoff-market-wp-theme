@@ -30,3 +30,4 @@ spl_autoload_register( 'autoloader' );
 // Loading Classes
 $themeSupport = new Theme_Support();
 $navigation   = new Register_Nav_Menu();
+$enqueue      = new Enqueue_Assets();
