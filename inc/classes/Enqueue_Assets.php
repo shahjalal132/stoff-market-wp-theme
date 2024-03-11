@@ -16,7 +16,7 @@ class Enqueue_Assets {
 
     public function enqueue_css() {
         // Register Style
-        wp_register_style( "stoff-style", THEME_DIR_PATH . "/assets/css/style.css", [], false, "all" );
+        wp_register_style( "stoff-style", THEME_DIR_URI . "/assets/css/style.css", [], false, "all" );
 
         // Enqueue Style
         wp_enqueue_style( "stoff-style" );
