@@ -44,5 +44,5 @@
 <!-- newsletter section area -->
 <section class="newsletter_section">
     <h2>Cut from a different cloth.</h2>
-    <button class="btn_btn"><a href="#">Get Custom Bids</a></button>
+    <button id="btn_two" ><a href="#">Get Custom Bids</a></button>
 </section>

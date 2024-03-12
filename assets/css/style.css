@@ -53,35 +53,16 @@ body {
   margin-bottom: 0;
 }
 
-/* .btn_btn {
-  background-color: #fac83e;
-  border: none;
-  padding: 12px 24px 12px 24px;
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
-  transition: background-color 0.3s;
-  text-align: center;
-} */
-
 .btn_btn:hover {
   background-color: #fac83e;
 }
 
-/* .btn_btn a {
-    font-size: 32px;
-    font-weight: 590;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;    
-} */
-
 .btn_btn a {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 590;
   text-decoration: none;
   color: #000;
-  padding: 10px 24px;
+  padding: 12px 24px;
   display: inline-block;
   background-color: #fac83e;
 }
@@ -94,8 +75,29 @@ button.btn_btn {
   outline: 1px solid #000;
   border: none;
   padding: 0;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-top: 27px;
+}
+
+#btn_two{
+  outline: 1px solid #000;
+  border: none;
+  padding: 0;
+  margin-top: 27px;
+}
+
+#btn_two a{
+  font-size: 25px;
+  font-weight: 590;
+  text-decoration: none;
+  color: #000;
+  padding: 12px 24px;
+  display: inline-block;
+  background-color: #fac83e;
+}
+
+#btn_two a:hover {
+  background-color: #f1b305;
 }
 
 /* box section area */
@@ -133,7 +135,7 @@ button.btn_btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   width: 70%;
   padding: 14px 0px 3px 0px;
   margin: 0 auto;
@@ -167,12 +169,11 @@ blockquote h2 {
 }
 
 .newsletter_section h2 {
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: center;
-    
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .quote,
